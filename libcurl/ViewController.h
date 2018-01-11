@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)pauseClick:(id)sender;
 
+- (IBAction)startDownload:(id)sender;
 
 @end
 
